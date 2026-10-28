@@ -2,7 +2,9 @@
 
 ## เริ่มต้น (ทำในคาบคู่)
 
-คาบเดี่ยวสัปดาห์นี้ไม่ใช้คอมพิวเตอร์ (กิจกรรมวาด component บนกระดาษ) ส่วนคาบคู่ทำตามนี้
+คาบเดี่ยววาด component บนกระดาษ แล้วเปิดคอมพิวเตอร์ช่วง Inspector เพื่อลองเลือกและแก้กล่องบนหน้าเว็บ ส่วนคาบคู่ทำตามนี้
+
+ในห้องใช้ GitHub Desktop สำหรับ Clone, Commit และ Push origin ตรวจ branch `starter` และตั้งชื่อ/noreply email ราย repository ตามครู คำสั่ง Git ด้านล่างเป็นวิธีทางเลือกเมื่อใช้ Terminal
 
 1. ครูพาทำทีละขั้น: เข้าสู่ระบบ GitHub ด้วยบัญชีของคุณ, ตั้งค่า git ในเครื่อง (ชื่อ และอีเมล noreply ของ GitHub — repo นี้เป็น public อย่าใช้อีเมลจริง), เปิด [repo สัปดาห์ 1](https://github.com/chanyutl-plearnpt/2026-sem2-web-programming-week01) แล้วกด **Fork**
 2. สร้างโฟลเดอร์ `web-prog-2026` ไว้ที่ที่หาง่าย (เช่น Documents) เปิด Terminal ในโฟลเดอร์นั้น แล้ว clone fork ของคุณลงมาเป็นโฟลเดอร์ชื่อ `w01`
@@ -26,6 +28,8 @@
 
 - ไฟล์ที่แก้ได้: `src/App.tsx`
 - component คือชิ้นส่วนของหน้าเว็บที่นำกลับมาใช้ได้ `<Button>` เป็น component ที่มาจาก MUI
+- component ใหม่ 3 ตัว: `Typography` (ข้อความ), `Stack` (จัดเรียงชิ้นส่วน), `Chip` (ป้ายเล็กๆ) และวิธีอ่านเอกสาร [MUI](https://mui.com/material-ui/all-components/) เพื่อดูว่า prop แต่ละตัวรับค่าอะไร
+- `target.png` คือภาพหน้าเว็บที่ครูกำหนด ให้คุณวาง component ให้ได้เหมือนภาพ (TODO 3 ใน `src/App.tsx`)
 
 ## งานวันนี้
 
