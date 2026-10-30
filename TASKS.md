@@ -25,8 +25,8 @@
 | 4 | **TODO 1:** แก้ข้อความ 2 บรรทัดใน `src/App.tsx` เป็นของคุณ | 4 |
 | 5 | **TODO 2:** ทำนายก่อน แล้วเปลี่ยน `variant` ของปุ่มเป็น `"outlined"` และ `"text"` สังเกตผล | 6 |
 | 6 | ลองพิมพ์ผิดชื่อ prop (เช่น `varient`) อ่าน error แล้วแก้กลับ | 5 |
-| 7 | **ลองใช้ component ใหม่:** `Typography`, `Stack`, `Chip` และฝึกอ่านเอกสาร MUI เพื่อหาว่า prop ไหนรับค่าอะไร | 12 |
-| 8 | **TODO 3:** ดูภาพ `target.png` แล้วสร้างหน้าให้เหมือนภาพด้วย component ที่เรียน | 13 |
+| 7 | **ฝึก component และอ่านเอกสาร:** ครอบปุ่มด้วย Stack → เปลี่ยน direction/spacing → ซ้อน Stack สองชั้น (5 นาที), ดูครูอ่านเอกสาร (2), ค้นและทดลองเดี่ยว (6), ตรวจคำตอบ (2) | 15 |
+| 8 | **TODO 3:** ดูภาพ `target.png` แล้วสร้างหน้าให้เหมือนภาพด้วย component ที่เรียน | 10 |
 | 9 | `npm run check` ให้ผ่าน แล้วใช้ GitHub Desktop ดู diff, Commit, Push origin และตรวจ fork | 7 |
 | 10 | Exit ticket | 3 |
 
