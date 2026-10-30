@@ -36,6 +36,23 @@
 >
 > Repo เป็น public และ fork ของนักเรียนก็เป็น public เปลี่ยนเป็น private ไม่ได้ จึงให้ตั้ง **Keep my email addresses private** ใน GitHub Settings → Emails แล้วใช้อีเมล `…@users.noreply.github.com` ใน `git config user.email` เพื่อไม่ให้อีเมลจริงติดอยู่ในประวัติ commit
 
+## คำใบ้ภาพ Core: กรอบ component
+
+ลองวาดกรอบจาก target.png ด้วยตัวเองก่อน ถ้าเริ่มติดให้เปิดภาพนี้เพื่อเทียบโครง
+
+<details>
+<summary>ดูกรอบ Stack, Typography, Chip และ Button ของหน้าแนะนำตัว</summary>
+
+![หน้าแนะนำตัว Core พร้อมกรอบ component](target-framed.png)
+
+[เปิดภาพกรอบขนาดเต็ม](target-framed.png)
+
+เส้นทึบสีคือ Stack; ลูกศร ↓ เรียงลงมา ลูกศร → เรียงเป็นแถว เส้นประคือ component ข้างใน ภาพขยายช่องว่างให้อ่านชื่อได้ ไม่ต้องทำเส้นหรือป้ายกำกับตามภาพ
+
+ลองนับ children โดยตรงของ Stack ตัวนอก แล้วชี้ว่า Stack ตัวใดจัดแถวป้ายและตัวใดจัดแถวปุ่ม
+
+</details>
+
 ## Challenge (สมัครใจ ไม่เก็บคะแนน)
 
 - เพิ่ม `<Alert>` หนึ่งกล่องไว้บนสุดของหน้า ให้เป็นสีเขียว (หาจากเอกสารว่า prop ไหนเปลี่ยนสีของ Alert)
